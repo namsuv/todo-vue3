@@ -1,5 +1,5 @@
 <template>
-  <form @submit="onSubmit">
+  <form @submit.prevent="onSubmit">
     <input 
       v-model="text"
       type="text"
